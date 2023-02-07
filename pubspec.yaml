@@ -11,7 +11,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  camera_camera: ^2.0.2
+  camera_camera: ^3.0.0-dev
   file_picker: ^5.2.5
   flutter:
     sdk: flutter
