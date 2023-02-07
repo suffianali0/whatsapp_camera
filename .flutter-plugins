@@ -1,9 +1,9 @@
 # This is a generated file; do not edit or check into version control.
-camera=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/camera-0.8.1+7/
-file_picker=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/file_picker-5.2.2/
-flutter_plugin_android_lifecycle=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.7/
-permission_handler=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/permission_handler-10.2.0/
-permission_handler_android=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/permission_handler_android-10.2.0/
-permission_handler_apple=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/permission_handler_apple-9.0.7/
-permission_handler_windows=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/permission_handler_windows-0.1.2/
-photo_gallery=/Users/welitonsousa/.pub-cache/hosted/pub.dartlang.org/photo_gallery-1.1.1/
+camera=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\camera-0.8.1+7\\
+file_picker=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\file_picker-5.2.5\\
+flutter_plugin_android_lifecycle=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_plugin_android_lifecycle-2.0.7\\
+permission_handler=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler-10.2.0\\
+permission_handler_android=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler_android-10.2.0\\
+permission_handler_apple=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler_apple-9.0.7\\
+permission_handler_windows=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler_windows-0.1.2\\
+photo_gallery=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\photo_gallery-1.1.1\\
