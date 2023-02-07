@@ -31,6 +31,14 @@ class _ViewImageState extends State<ViewImage> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         elevation: 0,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: Icon(
+            Icons.adaptive.arrow_back,
+          ),
+        ),
       ),
       backgroundColor: Colors.black,
       body: PhotoView(
