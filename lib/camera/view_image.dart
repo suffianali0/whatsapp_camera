@@ -32,6 +32,7 @@ class _ViewImageState extends State<ViewImage> {
         backgroundColor: Colors.black,
         elevation: 0,
         leading: IconButton(
+          color: Colors.white,
           onPressed: () {
             Navigator.pop(context);
           },
