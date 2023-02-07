@@ -29,7 +29,7 @@ class _ViewImageState extends State<ViewImage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
           color: Colors.white,
