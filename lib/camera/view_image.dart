@@ -50,14 +50,14 @@ class _ViewImageState extends State<ViewImage> {
         onScaleEnd: (context, details, controllerValue) {
           var pixelsPerSecond2 = details.velocity.pixelsPerSecond;
           var position = controllerValue.position;
-          // log('${pixelsPerSecond2}  ${position}',
-          //     name: 'controller_values');
+          log('${pixelsPerSecond2.dx} ${pixelsPerSecond2.dy} ${position.dx} ${position.dy}',
+              name: 'controller_values');
 
           if (pixelsPerSecond2.dx < 0 ||
               pixelsPerSecond2.dy < 0 ||
               position.dx < 0 ||
               position.dy < 0) {
-            Navigator.pop(context);
+            // Navigator.pop(context);
           }
         },
       ),
