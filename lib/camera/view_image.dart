@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
@@ -47,6 +48,7 @@ class _ViewImageState extends State<ViewImage> {
         imageProvider: imageProvider,
         maxScale: 3.0,
         onScaleEnd: (context, details, controllerValue) {
+          log('${details.pointerCount} ${details.velocity.pixelsPerSecond}  ${controllerValue.position} ${controllerValue.scale}',name: 'controller_values');
           Navigator.pop(context);
         },
       ),
