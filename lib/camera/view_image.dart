@@ -48,8 +48,17 @@ class _ViewImageState extends State<ViewImage> {
         imageProvider: imageProvider,
         maxScale: 3.0,
         onScaleEnd: (context, details, controllerValue) {
-          log('${details.pointerCount} ${details.velocity.pixelsPerSecond}  ${controllerValue.position} ${controllerValue.scale}',name: 'controller_values');
-          Navigator.pop(context);
+          var pixelsPerSecond2 = details.velocity.pixelsPerSecond;
+          var position = controllerValue.position;
+          // log('${pixelsPerSecond2}  ${position}',
+          //     name: 'controller_values');
+
+          if (pixelsPerSecond2.dx < 0 ||
+              pixelsPerSecond2.dy < 0 ||
+              position.dx < 0 ||
+              position.dy < 0) {
+            Navigator.pop(context);
+          }
         },
       ),
     );
