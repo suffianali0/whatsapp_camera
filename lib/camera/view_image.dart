@@ -46,6 +46,9 @@ class _ViewImageState extends State<ViewImage> {
         enablePanAlways: true,
         imageProvider: imageProvider,
         maxScale: 3.0,
+        onScaleEnd: (context, details, controllerValue) {
+          Navigator.pop(context);
+        },
       ),
     );
   }
