@@ -31,6 +31,7 @@ class _WhatsAppCameraController extends ChangeNotifier {
     final status = await Permission.storage.request();
     if (Platform.isIOS) {
       await Permission.photos.request();
+      await Permission.videos.request();
       await Permission.mediaLibrary.request();
     }
     return status.isGranted;
@@ -78,7 +79,7 @@ class _WhatsAppCameraController extends ChangeNotifier {
   Future<void> openGallery() async {
     final res = await FilePicker.platform.pickFiles(
       allowMultiple: multiple,
-      type: FileType.image,
+      type: FileType.media,
     );
     if (res != null) {
       for (var element in res.files) {
